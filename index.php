@@ -31,7 +31,6 @@
      * POST | http://solati.ideoweinc.com/
      * Cargar via POST los siguientes datos y en el mismo orden
      * {
-     *      "us_id":"1",
      *      "us_nombre":"Omar",
      *      "us_edad":"28",
      *      "us_cargo":"Desarrollo"
