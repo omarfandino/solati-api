@@ -5,12 +5,6 @@
 |   --- |   --- |   --- |
 | GET | http://solati.ideoweinc.com/ | Consultar todos los usuarios |
 | GET | http://solati.ideoweinc.com/?id=<ID> | Consultar usuario especifico dependiendo su ID |
-| POST | http://solati.ideoweinc.com/ | Cargar via POST los siguientes datos y en el mismo orden:
-`{
-           "us_id":"1",
-           "us_nombre":"Omar",
-           "us_edad":"28",
-           "us_cargo":"Desarrollo"
-      }` |
+| POST | http://solati.ideoweinc.com/ | Cargar via POST los siguientes datos y en el mismo orden: `{ "us_id":"1", "us_nombre":"Omar", "us_edad":"28", "us_cargo":"Desarrollo"}` |
 | PUT | http://solati.ideoweinc.com/?us_nombre=<NOMBRE>&us_edad=<EDAD>&us_cargo=<CARGO>&us_id=<ID> | Cargar via GET los anteriores datos |
 | DELETE | http://solati.ideoweinc.com/?id=<ID> | Eliminar usuario especifico dependiendo su ID |
