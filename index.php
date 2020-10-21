@@ -23,7 +23,7 @@
 
     /*
      * Consultar usuario especifico dependiendo su ID
-     * GET | http://solati.ideoweinc.com/?id=1
+     * GET | http://solati.ideoweinc.com/?us_id=1
     */
 
     /*
@@ -46,7 +46,7 @@
 
     /*
      * Eliminar usuario especifico dependiendo su ID
-     * DELETE | http://solati.ideoweinc.com/?id=1
+     * DELETE | http://solati.ideoweinc.com/?us_id=1
     */
 
 ?>
